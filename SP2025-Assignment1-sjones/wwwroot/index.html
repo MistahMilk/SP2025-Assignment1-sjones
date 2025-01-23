@@ -2,9 +2,59 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title></title>
+    <title>Breaking Bad</title>
+    <style>
+        body {
+            background-color: #093009;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+        }
+
+        h1, h2, h5, p {
+            color: white;
+        }
+
+        img {
+            border-radius: 50%;
+        }
+        ul {
+            text-align: center;
+            display: inline-block;
+        }
+
+        li {
+            color: white;
+            text-align: left;
+        }
+    </style>
 </head>
+
 <body>
-    Hello World!
+    <div>
+        <h1 id="Title">Breaking Bad</h1>
+        <img src="https://pyxis.nymag.com/v1/imgs/d4e/756/839ccde5f8196890f0e6106d8c25cb2cce-15-breaking-bad-1.rsquare.w400.jpg" id="CoverArt" width="500" height="500" alt="Cover Art" />
+        <h5 id="Rating">IMDB Rating: 9.5 / 10</h5>
+
+        <iframe id="Trailer" width="939" height="528" src="https://www.youtube.com/embed/VFkjBy2b50Q" title="Breaking Bad - Full Series Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <h2>Click Heisenburg to view on IMDB:</h2>
+        <a href="https://www.imdb.com/title/tt0903747/?ref_=ext_shr_lnk">
+            <img src="https://wallpapers.com/images/hd/manin-yellow-hazmat-suit-seated-94mbfzkudkeuj9vn.png" width="300" height="400" alt="Breaking Bad IMDB poster" />
+        </a>
+
+        <h2>Summary</h2>
+        <p id="Summary">A chemistry teacher diagnosed with inoperable lung cancer turns to manufacturing and selling methamphetamine with a former student to secure his family's future.</p>
+
+        <h1>Actors</h1>
+        <ul id="Actors">
+            <li>Bryan Cranston</li>
+            <li>Aaron Paul</li>
+            <li>Anna Gunn</li>
+            <li>Dean Norris</li>
+            <li>Bob Odenkirk</li>
+        </ul>
+    </div>
 </body>
 </html>
